@@ -1,0 +1,80 @@
+header{
+    text-align: center;
+    background: url("images/bus.jpg");
+    background-size: cover;
+}
+.header links{
+    padding: 10px;
+    padding: 0px 10px 0px 10px;
+    background: rgba(0 0 0 .5)
+  }
+  .hlinks{
+    display: inline;
+    padding: 0px 10px 0px 10px;
+  }
+  body{
+      background-color: rgb(220 235 245);
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+
+  }
+  a{
+     color: rgb(191 178 179)
+  }
+  article{
+      width:500px;
+      padding:20px;
+      margin:240;
+  }
+  h1 {
+    font-size: 50px;
+    font-family: 'Fredoka One', cursive;
+    color:  rgb(191 178 179);
+    
+  }
+  .button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px 16px;
+    border: 0px solid #000000;
+    border-radius: 40px;
+    background: #bfb2b3;
+    background: -webkit-gradient(linear, left top, left bottom, from(#bfb2b3), to(#bfb2b3));
+    background: -moz-linear-gradient(top, #bfb2b3, #bfb2b3);
+    background: linear-gradient(to bottom, #bfb2b3, #bfb2b3);
+    text-shadow: #591717 1px 1px 1px;
+    font: normal normal bold 14px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    background: #e5d6d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e5d6d7), to(#e5d6d7));
+    background: -moz-linear-gradient(top, #e5d6d7, #e5d6d7);
+    background: linear-gradient(to bottom, #e5d6d7, #e5d6d7);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #736b6b;
+    background: -webkit-gradient(linear, left top, left bottom, from(#736b6b), to(#bfb2b3));
+    background: -moz-linear-gradient(top, #736b6b, #bfb2b3);
+    background: linear-gradient(to bottom, #736b6b, #bfb2b3);
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAC/UlEQVRIiZ3VQYhVZRQH8N/3ZpBJ596JQQTv+xQCCzEIqq2FbSoqLCMCF5EUFbRSWoSLFkLQqha1CEkK3BURQVQmFaXWImIWLVqEgcx8cxELkfsMNKb3tXhXeY7vzbw6XC73nu+c//+c853vfKySGLsbY6yeXK3/vzLdjdV22eLyct2q8lN4Fp9At1vtDCHvJmxEIziTluqzkxKEGKvnMI9jmMaX7f/dOIyXMYsO+riET3EkpXpx3QzwMU63US9gV2Yl8CEebIHhMj7C5y1J52a4ERlAjNUBvJuZCasM8jUjvsscDiykVP89CbihKLajsxr8egQD2RP4DO/EWMVJCUI3VrvCoETzE/r0cQb7U6rr9Yyn5sriBTyCq7iITdxQGvgWb+MH/JW5I3B7WRZfNE3vn7UIOrgvs4Ij+Pl6avTJl9qI53E8pfp17As8gBp71sugg51436Cbdg6tLRAewqs55/mclZBS3U+pPieE17AhxmrNbuoYtOQRbMBMq7+EV1KqfxLCW0LYF4Imxq3TMVYgLS2vhBBOYeNaBNM4GkK4kHMe3uSTKdWnQM67cBRXCAmHcB6WlpabNeuDqabp/dg0vVyWxSY80+oPNk1vEZqmd6EsixjYj7uwpSxnTzTN5ZX1wLnhNOaEhF8NbTYE3hzSPU04MAk4TF37aJrL/bIstqFOqf5q2KhpelfLsljGXmzK2T1zc8WJpun98R8yIHOS/P1Iy+BrnIAQVHhj27buhokzgLly9k+cG1Xfpun1i2L2fAjhCdyC2/B70/R+WYtg1PgZKzFWMwZTdi9kznaCe5eW6rHdNDVuYZSUZTFjcDc82kY3jytFUZzu9Xp5lM/YDNoTugU7cs73hxDuRMStBu2qRbwYOI5vDDrtQkp1fyxBjNU0duB5PObG8bGW9PEbPjCYW+dvIujGrZuDcAgvYvOEwKOIFvBSSvXCdYIYq+14z+CaRFuCTBhTyDx2LSOcw+PTQ9rdWMzZsWtOoX0NAw3v5CjwQVCBwfPwv81O/3VidcwlAAAAAElFTkSuQmCC") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
